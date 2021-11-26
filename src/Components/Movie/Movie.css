@@ -1,0 +1,49 @@
+.Movie {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  border-bottom: 5px solid rgba(256, 256, 256, 0.8);
+}
+
+.Movie-Information {
+  flex-grow: 3;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 300px;
+}
+
+.Movie-Item-1{
+  width: 60%;
+}
+
+.Movie-Item-2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(105, 105, 105, 0.7);
+  width: 50%;
+  font-size: 20px;
+}
+
+.Movie-Item-2 h3{
+  text-align: center;
+}
+.Movie-Item-2 p{
+  text-align: center;
+}
+
+img {
+  height: 300px;
+  vertical-align: middle;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 1020px) {
+  .Movie {
+    margin-bottom: 30px;
+  }
+
+  
+} 
